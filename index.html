@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+    <title>Игра</title>
+</head>
+<body>
+    <div class="container-game">
+            <button id="makeNumber" class="makeNumber" onclick="makeNumber()"></button>
+        <div class="counter"> 
+            <p id="counterText"></p>
+            <p id="counter"></p>
+        </div>
+        <div class="required-number">
+            <p id="requiredNumberText"></p>
+            <p id="requiredNumber"></p>
+        </div>
+    <div class="countActions">
+        <button id="plus" onclick="plus()"></button>
+        <button id="minus" onclick="minus()"></button>
+    </div>
+    <div class="gameActions">
+        <button id="newGame" onclick="newGame()"></button>
+        <button id="resetScore" onclick="resetScore()"></button>
+    </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

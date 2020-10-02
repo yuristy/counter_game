@@ -1,0 +1,188 @@
+@media screen and (max-width: 649px) {
+    
+    body {
+        font-size: 20vw;
+    }
+    
+    .countActions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .countActions > button {
+        margin: 1vh 0;
+    }
+
+    .gameActions {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .gameActions > button {
+        margin: 1vh 0;
+    }
+
+    button {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 10vw;
+        min-width: 60px;
+        cursor: pointer;
+        border-radius: 3vh;
+    }
+}
+
+@media screen and (min-width: 650px) {
+    
+    .countActions > button {
+        margin: 0 3vw;
+    }
+    
+    .gameActions > button {
+        margin: 0 3vw;
+    }
+    button {
+        margin: 0;
+        padding: 0;
+        border: 0;
+        width: 10vw;
+        min-width: 60px;
+        cursor: pointer;
+        border-radius: 2vh;
+    }
+    
+}
+
+@media screen and (min-height: 1023px) {
+    p {
+        font-size: 3rem;
+        margin: 0rem 1rem;
+    }
+
+    body {
+        font-size: 35vw;
+    }
+}
+
+body {
+    background-color: #efe9f7;
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    font-size: 1.5rem;
+    margin: 0rem 1rem;
+}
+
+button {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+    width: 60vw;
+    max-width: 250px;
+    height: 10vh;
+    cursor: pointer;
+    font-size: 1.3rem;
+}
+
+button:focus { 
+    outline: none; 
+}
+
+.makeNumber {
+    background-color: #137fa3;
+    color: white;
+    border: 1px solid rgb(40, 100, 177);
+    transition-duration: 0.2s;
+}
+
+.makeNumber:hover {
+    background-color: #0b8fbb;
+    color: white;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+}
+
+#plus {
+    background-color: #4caf50;
+    color: white;
+    border: 1px solid rgb(66, 156, 66);
+    transition-duration: 0.2s;
+    
+}
+
+#plus:hover {
+    background-color: #45bd49;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+    color: white;
+}
+
+
+#minus {
+    background-color: #e73e31;
+    color: white;
+    border: 1px solid rgb(231, 37, 37);
+    transition-duration: 0.2s;
+}
+
+#minus:hover {
+    background-color: #f3291a;
+    color: white;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+}
+
+
+
+#newGame {
+    background-color: #1d1d1d;
+    color: white;
+    border: 1px solid black;
+    transition-duration: 0.2s;
+}
+
+#newGame:hover {
+    background-color: #252525;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+}
+
+#resetScore {
+    background-color: #5e5e5e;
+    color: white;
+    border: 1px solid grey;
+    transition-duration: 0.2s;
+}
+
+#resetScore:hover {
+    background-color: #696969;
+    color: white;
+    box-shadow: 0 3px 5px 0 rgba(0,0,0,0.24), 0 3px 5px 0 rgba(0,0,0,0.19);
+}
+
+.container-game {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.counter {
+    display: flex;
+}
+
+.required-number {
+    display: flex;
+}
+
+.countActions {
+    display: flex;
+}
+
+.gameActions {
+    display: flex;
+}
+
